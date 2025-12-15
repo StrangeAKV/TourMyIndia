@@ -41,7 +41,7 @@ const destinationsData: Record<string, {
     ],
     bestTime: "October to March",
     duration: "6 Nights - 7 Days",
-    price: "₹35,999",
+    price: "₹15,999",
     rating: 4.9,
     reviews: 2847
   },
@@ -61,7 +61,7 @@ const destinationsData: Record<string, {
     ],
     bestTime: "September to March",
     duration: "5 Nights - 6 Days",
-    price: "₹28,999",
+    price: "₹18,999",
     rating: 4.8,
     reviews: 1923
   },
@@ -81,7 +81,7 @@ const destinationsData: Record<string, {
     ],
     bestTime: "June to September",
     duration: "7 Nights - 8 Days",
-    price: "₹45,999",
+    price: "₹25,999",
     rating: 4.9,
     reviews: 1567
   },
@@ -101,7 +101,7 @@ const destinationsData: Record<string, {
     ],
     bestTime: "October to March",
     duration: "3 Nights - 4 Days",
-    price: "₹18,999",
+    price: "₹13,999",
     rating: 4.7,
     reviews: 1245
   },
@@ -121,7 +121,7 @@ const destinationsData: Record<string, {
     ],
     bestTime: "November to February",
     duration: "4 Nights - 5 Days",
-    price: "₹22,999",
+    price: "₹16,999",
     rating: 4.6,
     reviews: 2156
   },
@@ -141,7 +141,7 @@ const destinationsData: Record<string, {
     ],
     bestTime: "October to March",
     duration: "8 Nights - 9 Days",
-    price: "₹52,999",
+    price: "₹22,999",
     rating: 4.9,
     reviews: 1834
   },
@@ -161,7 +161,7 @@ const destinationsData: Record<string, {
     ],
     bestTime: "October to June",
     duration: "4 Nights - 5 Days",
-    price: "₹38,999",
+    price: "₹28,999",
     rating: 4.8,
     reviews: 987
   },
@@ -181,7 +181,7 @@ const destinationsData: Record<string, {
     ],
     bestTime: "October to March",
     duration: "6 Nights - 7 Days",
-    price: "₹42,999",
+    price: "₹22,999",
     rating: 4.8,
     reviews: 1123
   },
@@ -366,10 +366,10 @@ const DestinationDetail = () => {
                 <div className="mt-6 pt-6 border-t border-border text-center">
                   <p className="text-sm text-muted-foreground mb-2">Need help planning?</p>
                   <a
-                    href="tel:+91-9212777225"
+                    href="tel:+91-7488524281"
                     className="text-primary font-semibold hover:underline"
                   >
-                    +91-9212777225
+                    +91-7488524281
                   </a>
                 </div>
               </div>
