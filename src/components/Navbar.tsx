@@ -237,8 +237,13 @@ export function Navbar() {
                 </Button>
               </Link>
             )}
-            
-            <Button variant="hero" size="default" className="gap-2">
+          
+            <Button 
+              variant="hero" 
+              size="default" 
+              className="gap-2"
+              onClick={() => document.getElementById('travel-planner')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               <MapPin className="w-4 h-4" />
               Plan Your Trip
             </Button>
@@ -309,7 +314,14 @@ export function Navbar() {
                 <Phone className="w-4 h-4 text-primary" />
                 +91-7488524281
               </a>
-              <Button variant="hero" className="w-full gap-2">
+              <Button 
+                variant="hero" 
+                className="w-full gap-2"
+                onClick={() => {
+                  setIsMobileMenuOpen(false);
+                  document.getElementById('travel-planner')?.scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
                 <MapPin className="w-4 h-4" />
                 Plan Your Trip
               </Button>

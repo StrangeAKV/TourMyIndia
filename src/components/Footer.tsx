@@ -15,17 +15,21 @@ export function Footer() {
             our travel experts today.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Button variant="hero-outline" size="lg" className="gap-2">
-              <Phone className="w-5 h-5" />
-              Call Now
-            </Button>
-            <Button
-              size="lg"
-              className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 gap-2"
-            >
-              <Mail className="w-5 h-5" />
-              Send Enquiry
-            </Button>
+            <a href="tel:+91-7488524281">
+              <Button variant="hero-outline" size="lg" className="gap-2">
+                <Phone className="w-5 h-5" />
+                Call Now
+              </Button>
+            </a>
+            <a href="mailto:ashishkumarverma2109@gmail.com">
+              <Button
+                size="lg"
+                className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 gap-2"
+              >
+                <Mail className="w-5 h-5" />
+                Send Enquiry
+              </Button>
+            </a>
           </div>
         </div>
       </div>
